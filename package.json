@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MatheusXz/intro-js/issues"
   },
-  "homepage": "https://github.com/MatheusXz/intro-js#readme"
+  "homepage": "https://github.com/MatheusXz/intro-js#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

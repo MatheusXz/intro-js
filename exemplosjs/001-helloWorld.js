@@ -5,12 +5,12 @@ let idade = 22
 let trabalha = true
 let altura = 1.87
 
-new Array(coresFavoritas) = ['roxo', 'azul', 'preto']
-let endereco = { 
+const coresFavoritas = ['roxo', 'azul', 'preto']
+let endereco = {
     logradouro: 'Rua',
     nomeLograd: 'Tal',
-    numLograd:  '1258-A',
-    bairro:     'Centro'
+    numLograd: '1258-A',
+    bairro: 'Centro'
 }
 
 let covid = null
@@ -26,10 +26,12 @@ const alunos = {
 }
 
 
-console.log(`
-    Meu nome é ${nome} tenho ${idade} minha altura é de ${altura} meu endereço é 
-`)
+console.log(`Meu nome é ${nome} tenho ${idade} minha altura é de ${altura} meu endereço é ${endereco.nomeLograd}`)
 console.log(altura)
 console.log(nums.filter(n => n >= 30))
-console.log(typeof(coresFavoritas))
+console.log(typeof (coresFavoritas))
 // console.log(alunos.map(n => n))
+
+const eUmArray = Array.isArray(coresFavoritas);
+
+console.log(eUmArray === true ? `É um array` : `Não é um array`)
