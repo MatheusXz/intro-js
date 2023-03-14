@@ -35,3 +35,8 @@ console.log(typeof (coresFavoritas))
 const eUmArray = Array.isArray(coresFavoritas);
 
 console.log(eUmArray === true ? `É um array` : `Não é um array`)
+
+console.log('Objeto: ')
+console.log(`
+    Olá meu endereço é: ${endereco.logradouro} ${endereco.nomeLograd} - Nº ${endereco.numLograd} - Bairro: ${endereco.bairro} - FIM
+    `)

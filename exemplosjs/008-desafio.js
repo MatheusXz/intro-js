@@ -39,3 +39,6 @@ console.log(`
   A meida é    : ${media.toFixed(2)}
   Nota final é : ${valor}
 `);
+
+console.log('Fim do programa');
+console.log('');
