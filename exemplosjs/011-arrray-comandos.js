@@ -41,6 +41,7 @@ do {
 
   if (opcao == 1) {
     console.log(tarefas.filter(pendentes));
+    entrada();
   }
 
   if (opcao == 2) {
